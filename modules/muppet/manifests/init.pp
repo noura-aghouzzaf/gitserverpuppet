@@ -1,5 +1,5 @@
 class muppet(
- $puppet_name = ""
+ $puppet_name = "noura"
 )
 { 
   
