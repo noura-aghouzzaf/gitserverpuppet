@@ -3,8 +3,10 @@ node default {
 }
 
 node agent-muppet {
-    include muppet
+    class {muppet:
+       puppet_name => "noura"
     }
+}
 node toto{
 	package { 'python3':
             ensure => installed,
