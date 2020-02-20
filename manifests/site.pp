@@ -5,6 +5,7 @@ node default {
 node agent-muppet {
     class {muppet:
        puppet_name => "noura"
+       
     }
 }
 node toto{

@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Hello from kermit"
+echo "Hello from $puppet_name"
 cat << "EOF"
 
  (+)(+)                     
