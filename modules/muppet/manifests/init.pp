@@ -11,14 +11,14 @@ class muppet{
     gid => 'kermit',
     home => "/home/kermit",
     shell => "/bin/bash",
-    before => File['/home/kermit']
+    before => File['/home/kermit'],
   }
 
   file {'/home/kermit':
-    ensure => directory
+    ensure => directory,
     owner => 'kermit',
-    group => 'kermit'
-    before => File['/home/kermit/.profile']
+    group => 'kermit',
+    before => File['/home/kermit/.profile'],
   }
 
 file { "/home/kermit/.profile":
