@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Hello from kermit"
-cat <<EOF
+cat << "EOF"
 
  (+)(+)                     
 /      \  
@@ -9,3 +9,4 @@ cat <<EOF
 <\/\/\/> 
 /      \
  Kermit
+EOF
