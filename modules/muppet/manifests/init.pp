@@ -6,7 +6,7 @@ class muppet{
   }
 
   user {'kermit':
-    require => Group:['kermit'],
+    require => Group['kermit'],
     ensure => present,
     gid => 'kermit',
     home => "/home/kermit",
