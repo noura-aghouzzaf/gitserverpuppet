@@ -2,6 +2,9 @@ node default {
   notify {'Hello from Puppet Server!':}
 }
 
+node agent muppet {
+    include muppet
+    }
 node toto{
 	package { 'python3':
             ensure => installed,
